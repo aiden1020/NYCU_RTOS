@@ -29,6 +29,8 @@ Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/inclu
 Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/list.h
 Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/semphr.h
 Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/queue.h
+Blinky_Demo/main_blinky.obj: /home/rtos/ti/ccs1010/ccs/tools/compiler/ti-cgt-msp430_20.2.1.LTS/include/stdio.h
+Blinky_Demo/main_blinky.obj: /home/rtos/ti/ccs1010/ccs/tools/compiler/ti-cgt-msp430_20.2.1.LTS/include/stdarg.h
 Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Demo/Common/include/partest.h
 
 ../Blinky_Demo/main_blinky.c: 
@@ -60,4 +62,6 @@ Blinky_Demo/main_blinky.obj: /home/rtos/Downloads/FreeRTOS/FreeRTOS/Demo/Common/
 /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/list.h: 
 /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/semphr.h: 
 /home/rtos/Downloads/FreeRTOS/FreeRTOS/Source/include/queue.h: 
+/home/rtos/ti/ccs1010/ccs/tools/compiler/ti-cgt-msp430_20.2.1.LTS/include/stdio.h: 
+/home/rtos/ti/ccs1010/ccs/tools/compiler/ti-cgt-msp430_20.2.1.LTS/include/stdarg.h: 
 /home/rtos/Downloads/FreeRTOS/FreeRTOS/Demo/Common/include/partest.h: 

@@ -25,10 +25,10 @@
 
 */
 
-#define putchar(c) c
+//#define putchar(c) c
 
 #include <stdarg.h>
-
+#include <stdio.h>
 static int tiny_print( char **out, const char *format, va_list args, unsigned int buflen );
 
 static void printchar(char **str, int c, char *buflimit)
@@ -213,24 +213,24 @@ int printf(const char *format, ...)
         return tiny_print( 0, format, args, 0 );
 }
 
-int sprintf(char *out, const char *format, ...)
-{
-        va_list args;
-
-        va_start( args, format );
-        return tiny_print( &out, format, args, 0 );
-}
-
-
-int snprintf( char *buf, unsigned int count, const char *format, ... )
-{
-        va_list args;
-
-        ( void ) count;
-
-        va_start( args, format );
-        return tiny_print( &buf, format, args, count );
-}
+//int sprintf(char *out, const char *format, ...)
+//{
+//        va_list args;
+//
+//        va_start( args, format );
+//        return tiny_print( &out, format, args, 0 );
+//}
+//
+//
+//int snprintf( char *buf, unsigned int count, const char *format, ... )
+//{
+//        va_list args;
+//
+//        ( void ) count;
+//
+//        va_start( args, format );
+//        return tiny_print( &buf, format, args, count );
+//}
 
 
 #ifdef TEST_PRINTF
@@ -302,11 +302,11 @@ int main(void)
 
 
 /* To keep linker happy. */
-int	write( int i, char* c, int n)
-{
-	(void)i;
-	(void)n;
-	(void)c;
-	return 0;
-}
+//int	write( int i, char* c, int n)
+//{
+//	(void)i;
+//	(void)n;
+//	(void)c;
+//	return 0;
+//}
 

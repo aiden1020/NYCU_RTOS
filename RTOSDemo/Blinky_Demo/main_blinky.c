@@ -66,7 +66,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "semphr.h"
-
+#include <stdio.h>
 /* Standard demo includes. */
 #include "partest.h"
 
